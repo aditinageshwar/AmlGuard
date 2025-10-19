@@ -22,7 +22,7 @@ AML 360 is a comprehensive, production-grade Anti-Money Laundering (AML) transac
 
 ### Technical Stack
 - **Backend**: FastAPI, Python, SQLite
-- **Frontend**: Streamlit with multi-page architecture
+- **Frontend**: Streamlit with multi-page architecture and React.js
 - **ML/AI**: scikit-learn, XGBoost, joblib for model persistence
 - **Vector DB**: ChromaDB for semantic search
 - **Processing**: Pandas, NumPy for high-performance data processing
@@ -58,7 +58,7 @@ The following directories are created automatically:
 ```
 .
 ├── backend/          # API and rule engine
-├── ui/              # Streamlit application
+├── ui/              # Streamlit and React application
 ├── data/            # Transaction data and referentials
 ├── models/          # Trained ML models
 ├── results/         # Batch processing outputs
@@ -86,10 +86,10 @@ The API will be available at http://localhost:8001 with endpoints:
 
 ### Start the Streamlit UI (Terminal 2)
 ```bash
-uv run streamlit run ui/app_streamlit.py --server.port 5000
+uv run streamlit run ui/app_streamlit.py --server.port 8501
 ```
 
-The application will open at http://localhost:5000
+The application will open at http://localhost:5173
 
 **Note**: In Replit, both services start automatically via configured workflows.
 

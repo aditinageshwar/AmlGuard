@@ -153,3 +153,6 @@
 2025-10-19 20:23:45 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
 2025-10-19 20:28:48 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
 2025-10-19 20:29:46 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:49:40 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 20:49:42 | vectorstore.chroma_client | WARNING | chroma_client.py:52 | sentence-transformers not available - embeddings functionality disabled
+2025-10-19 20:49:47 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502

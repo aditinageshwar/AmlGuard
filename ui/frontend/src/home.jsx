@@ -187,37 +187,32 @@ const Home = () => {
         <div className="lg:hidden"> <StepArrow /> 
         </div> 
         
-        {/* Step 3: Smart Alerts & Insights */} 
-        <div  ref={(el) => (workRef.current[2] = el)} className="flex flex-col items-center w-full lg:w-1/3">
-    <div className="w-20 h-20 flex items-center justify-center rounded-full border-2 border-blue-300 text-blue-600 mb-4">
+      {/* Step 3: Smart Alerts & Insights */} 
+      <div  ref={(el) => (workRef.current[2] = el)} className="flex flex-col items-center w-full lg:w-1/3">
+      <div className="w-20 h-20 flex items-center justify-center rounded-full border-2 border-blue-300 text-blue-600 mb-4">
         {/* Replacing Bell Icon with a generic Analysis/Chart icon for "Rescore Analysis" */}
         <svg className="w-8 h-8 stroke-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19V6l2-2m-2 15h8a2 2 0 002-2V7a2 2 0 00-2-2H9a2 2 0 00-2 2v10a2 2 0 002 2zm0 0l2 2m-2-2l2-2m-2 2h8" />
         </svg>
-    </div>
-    <h3 className="text-lg font-semibold text-slate-800 mb-1">3. Rescore Analysis & Insights</h3>
-    <p className="text-gray-500 text-center text-sm max-w-xs">Gain deeper understanding through rescoring and detailed analysis of flagged activity.</p>
-</div>
-        </div> 
+      </div>
+        <h3 className="text-lg font-semibold text-slate-800 mb-1">3. Rescore Analysis & Insights</h3>
+        <p className="text-gray-500 text-center text-sm max-w-xs">Gain deeper understanding through rescoring and detailed analysis of flagged activity.</p>
+      </div>
+    </div> 
 
-         {/* Call to Action Section */}
-         {/* <section className="bg-slate-800 text-white py-16 text-center rounded-xl shadow-2xl mt-20 mb-10"> 
-            <h2 className="text-4xl font-bold mb-6">Ready to see it in action?</h2> 
-            <button className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-bold py-3 px-10 rounded-lg text-lg shadow-xl transition duration-300"> Request AML-360 </button> 
-        </section>  */}
-        
-<section className="bg-slate-800 text-white py-16 text-center rounded-xl shadow-2xl mt-20 mb-10"> 
-    <h2 className="text-4xl font-bold mb-6">Ready to see it in action?</h2> 
-    <button
+    {/* Call to Action Section */}    
+    <section className="bg-slate-800 text-white py-16 text-center rounded-xl shadow-2xl mt-20 mb-10"> 
+      <h2 className="text-4xl font-bold mb-6">Ready to see it in action?</h2> 
+      <button
         className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-bold py-3 px-10 rounded-lg text-lg shadow-xl transition duration-300"
-        onClick={() => window.location.href = "https://52b980d3-8524-4948-be8a-a82a240f3ca3-00-x02dxa3u97ad.worf.replit.dev/"}
-    >
+        onClick={() => window.location.href = "http://127.0.0.1:8501"}
+      >
         Request AML-360
-    </button> 
-</section>
+      </button> 
+    </section>
 
 
-        <footer className="text-gray-300 py-8 mb-[-120px]">
+    <footer className="text-gray-300 py-8 mb-[-120px]">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="text-center md:text-left mb-4 md:mb-0">

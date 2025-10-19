@@ -116,3 +116,40 @@
 2025-10-11 16:24:17 | vectorstore.chroma_client | WARNING | chroma_client.py:52 | sentence-transformers not available - embeddings functionality disabled
 2025-10-11 16:24:17 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
 2025-10-11 16:24:20 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 18:43:44 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:00:19 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:00:22 | vectorstore.chroma_client | WARNING | chroma_client.py:52 | sentence-transformers not available - embeddings functionality disabled
+2025-10-19 19:00:27 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:06:44 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:09:44 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:12:30 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:16:18 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:16:20 | vectorstore.chroma_client | WARNING | chroma_client.py:52 | sentence-transformers not available - embeddings functionality disabled
+2025-10-19 19:16:25 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:20:25 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:20:47 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:30:18 | backend.database | INFO | database.py:87 | Database initialized successfully
+2025-10-19 19:30:20 | vectorstore.chroma_client | WARNING | chroma_client.py:52 | sentence-transformers not available - embeddings functionality disabled
+2025-10-19 19:30:25 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:34:16 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:34:38 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:37:04 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:39:47 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:40:07 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:40:40 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:41:35 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:43:36 | vectorstore.chroma_client | WARNING | chroma_client.py:201 | No embedding model available for retrieval
+2025-10-19 19:43:49 | vectorstore.chroma_client | WARNING | chroma_client.py:201 | No embedding model available for retrieval
+2025-10-19 19:45:21 | vectorstore.chroma_client | WARNING | chroma_client.py:201 | No embedding model available for retrieval
+2025-10-19 19:45:29 | vectorstore.chroma_client | WARNING | chroma_client.py:201 | No embedding model available for retrieval
+2025-10-19 19:57:30 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 19:59:10 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:05:15 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:05:44 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:07:20 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:10:23 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:16:27 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:22:30 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:23:45 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:28:48 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502
+2025-10-19 20:29:46 | backend.ml_model | INFO | ml_model.py:409 | Model loaded from models/rf_model.joblib, version: 20251011_103502

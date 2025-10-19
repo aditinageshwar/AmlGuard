@@ -1,8 +1,3 @@
-"""
-AML 360 Streamlit Application
-Multi-page dashboard for AML transaction monitoring
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -86,7 +81,7 @@ st.sidebar.markdown("Anti-Money Laundering Monitoring System")
 
 page = st.sidebar.selectbox(
     "Navigate to:",
-    ["🏠 Home / Overview", "📊 Dashboard", "✍️ Manual Transaction Entry", "🔍 Investigations / Export"]
+    ["🏠 Home", "📊 Dashboard", "✍️ Manual Transaction Entry", "🔍 Investigations / Export"]
 )
 
 # Helper functions
@@ -177,7 +172,7 @@ def create_transaction_form():
         return None
 
 # Page routing
-if page == "🏠 Home / Overview":
+if page == "🏠 Home":
     st.title("🏠 AML 360 Overview")
     st.markdown("Welcome to the Anti-Money Laundering 360 monitoring system")
     
@@ -193,7 +188,7 @@ if page == "🏠 Home / Overview":
     
     with col1:
         total_flagged = stats.get('total_flagged', 0)
-        st.metric("Total Flagged", total_flagged, delta=stats.get('recent_flagged', 0))
+        st.metric("Total Suspicious", total_flagged, delta=stats.get('recent_flagged', 0))
     
     with col2:
         avg_score = stats.get('avg_score', 0)
@@ -1052,12 +1047,3 @@ Built with Streamlit • Real-time transaction monitoring and investigation tool
 """, unsafe_allow_html=True)
 import sys
 import os
-
-# # Adds the parent directory (AmlGuard) to sys.path
-# # '..' means "go up one directory"
-# project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-# if project_root not in sys.path:
-#     sys.path.append(project_root)
-
-# # ... rest of your imports will now work ...
-# from backend.ml_model import AMLMLModel 
